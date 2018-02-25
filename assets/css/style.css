@@ -1,0 +1,43 @@
+
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+    color: #777777
+}
+
+header {
+    width: 960px;
+    height: 60px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-color: #cccccc;
+    position: relative;
+}
+
+h1 {
+    background-color: #4aaaa5;
+    height: 60px;
+    width: 250px;
+    text-align: center;
+    /*margin-right: 440px;*/
+}
+
+nav {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 270px;
+    background-color: yellow;
+}
+
+a {
+    margin: 2px;
+}
+
+#backgroundcontent {
+    background-image: url("../images/dust_scratches.png");
+    background-color: bisque;
+}
