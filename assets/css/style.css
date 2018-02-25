@@ -10,7 +10,7 @@ body {
 
 header {
     width: 960px;
-    height: 60px;
+    height: 100px;
     margin: 0 auto;
     background-color: #ffffff;
     border-color: #cccccc;
@@ -19,7 +19,8 @@ header {
 
 h1 {
     background-color: #4aaaa5;
-    height: 60px;
+    color: #ffffff;
+    height: 100px;
     width: 250px;
     text-align: center;
     /*margin-right: 440px;*/
@@ -27,6 +28,7 @@ h1 {
 
 nav {
     position: absolute;
+    height: 100px;
     right: 0px;
     top: 0px;
     width: 270px;
@@ -37,7 +39,43 @@ a {
     margin: 2px;
 }
 
-#backgroundcontent {
+#backgroundimage {
     background-image: url("../images/dust_scratches.png");
     background-color: bisque;
+
+}
+
+#contentArea {
+    width: 960px;
+    margin: 0 auto;
+    position: relative;
+}
+
+
+main {
+    background-color: #ffffff;
+    border: 1px;
+    border-color: #dddddd;
+    width: 650px;
+
+}
+
+#janeimage {
+    width: 185px;
+    height: 225px;
+}
+
+aside {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background-color: #ffffff;
+    border: 1px;
+    border-color: #dddddd;
+    width: 270px;
+}
+
+footer {
+    background-color: #666666;
+    color: #ffffff;
 }
