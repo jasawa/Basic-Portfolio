@@ -10,7 +10,7 @@ body {
     font-size: 17px;
 
 }
-h1, h2, h3 h4 {
+h1, h2, h3, h4 {
     font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
 
@@ -126,13 +126,14 @@ aside {
 
 h3 {
     color: #4aaaa5;
-    padding: 25px;
-    font-size: 24px;
+    padding-bottom: 25px;
+    margin: 25px;
+    font-size: 26px;
     border-bottom: 1px solid #dddddd;
 }
 
 .connections {
-    padding: 25px 25px 40px 25px;
+    padding: 0px 25px 35px 25px;
 
 }
 
